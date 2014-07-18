@@ -1,0 +1,8 @@
+FROM base
+MAINTAINER Timo Derstappen <teemow@gmail.com>
+
+# redis
+PKG redis
+ENABLE redis
+
+ADD redis.conf /etc/redis.conf
